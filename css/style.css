@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Heebo", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  padding-top: 27px;
+  padding-bottom: 140px;
+  padding-right: 60px;
+}
+.header-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-nav__link {
+  margin-right: 33px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+}
+.hero {
+  padding-bottom: 71px;
+  padding-top: 0;
+}
+.hero-container,
+.posts-container,
+.works-container {
+  max-width: 855px;
+  margin: auto;
+}
+.hero-wrapper {
+  display: flex;
+}
+.hero-text {
+  margin-right: 115px;
+}
+.hero-text__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.hero-text__description {
+  max-width: 497px;
+  margin-bottom: 38px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243d;
+}
+.hero-text__button {
+  background: #ff6464;
+  border-radius: 2px;
+  border: none;
+  padding: 10px 21px 17px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.hero-avatar {
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.posts {
+  padding-top: 69px;
+  padding-bottom: 32px;
+  background: #edf7fa;
+}
+.posts-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.posts-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+.post-cards {
+  display: flex;
+}
+.post-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #00a8cc;
+}
+.card {
+  background-color: #fff;
+  max-width: 418px;
+  min-height: 205px;
+}
+.card:first-child {
+  margin-right: 20px;
+}
+.card-wrapper {
+  padding: 24px 22px;
+}
+.card__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 38px;
+  color: #21243d;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.card-description {
+  max-width: 368px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243d;
+}
+.card-date::after {
+  content: "";
+  height: 21px;
+  width: 1px;
+  background-color: #000;
+  margin-right: 26px;
+  margin-left: 26px;
+  display: inline-block;
+}
+.card-text {
+  display: flex;
+  align-items: center;
+}
+.works {
+  padding-top: 15px;
+  padding-bottom: 83px;
+}
+.works-main-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+.works-text {
+  margin-left: 18px;
+}
+.works-img {
+  width: 246px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.works-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.works-card {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 30px 0;
+}
+.works-dates {
+  display: flex;
+  margin-bottom: 20px;
+}
+.works-date {
+  margin-right: 26px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffff;
+  background: #142850;
+  border-radius: 16px;
+  padding: 0 10px;
+}
+.works-feel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 1.4;
+  color: #8695a4;
+}
+.works-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #21243d;
+  max-width: 594px;
+}
+.footer {
+  padding: 55px 0;
+  text-align: center;
+}
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 26px;
+}
+.social-icon {
+  margin-right: 35px;
+}
+.footer-copyright {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #21243d;
+  margin-right: 35px;
+}
