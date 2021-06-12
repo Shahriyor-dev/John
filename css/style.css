@@ -224,6 +224,7 @@ a {
   align-items: center;
   justify-content: center;
   margin-bottom: 26px;
+  margin-left: 35px;
 }
 .social-icon {
   margin-right: 35px;
@@ -234,5 +235,4 @@ a {
   font-size: 14px;
   line-height: 21px;
   color: #21243d;
-  margin-right: 35px;
 }
