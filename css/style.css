@@ -35,6 +35,7 @@ a {
 .works-container {
   max-width: 855px;
   margin: auto;
+  width: 90%;
 }
 .hero-wrapper {
   display: flex;
@@ -235,4 +236,7 @@ a {
   font-size: 14px;
   line-height: 21px;
   color: #21243d;
+}
+.header__burger {
+  display: none;
 }

@@ -1,0 +1,129 @@
+@media (max-width: 978px) {
+  .hero-wrapper {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hero-text {
+    margin-right: 0;
+  }
+  .hero-avatar {
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-right: 30px;
+  }
+  .header-nav {
+    display: none;
+  }
+
+  .header__burger {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  .header__burger span {
+    position: absolute;
+    left: 0;
+    background-color: #000;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+  }
+  .header__burger::before,
+  .header__burger::after {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+  }
+  .header__burger::before {
+    top: 0;
+  }
+  .header__burger::after {
+    bottom: 0;
+  }
+  .card,
+  .card:first-child {
+    margin-right: 0;
+  }
+  .post-cards {
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 25px;
+  }
+  .posts-link {
+    display: none;
+  }
+  .posts-top {
+    justify-content: flex-start;
+  }
+  .works-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .works-text {
+    margin-left: 0;
+  }
+  .works-img {
+    margin-bottom: 17px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 475px) {
+  .hero-text__title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: 40px;
+  }
+  .hero-text__description {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .card-date::after {
+    display: none;
+  }
+  .card-wrapper {
+    padding: 12px 8px 22px 19px;
+  }
+  .card-date,
+  .card-platform {
+    font-size: 16px;
+  }
+  .card-date {
+    margin-right: 25px;
+  }
+  .card__title {
+    font-size: 22px;
+  }
+  .posts-top {
+    justify-content: center;
+  }
+  .works-main-title {
+    text-align: center;
+  }
+  .works-description {
+    max-width: 327px;
+  }
+  .works-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .works-img {
+    width: 339px;
+  }
+  .works-card--2,
+  .works-card--3 {
+    display: none;
+  }
+}
