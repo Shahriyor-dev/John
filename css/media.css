@@ -126,4 +126,27 @@
   .works-card--3 {
     display: none;
   }
+  .blogs-title {
+    margin-bottom: 18px;
+    font-size: 30px;
+    line-height: 60px;
+  }
+  .blog-title {
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 5px;
+  }
+  .blog-date,
+  .blog-hover {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 17px;
+    max-width: 339px;
+  }
+  .blog-date::after {
+    display: none;
+  }
+  .blog-date {
+    margin-right: 27px;
+  }
 }
