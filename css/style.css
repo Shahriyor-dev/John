@@ -315,3 +315,15 @@ a {
 .blog:last-child {
   margin-bottom: 0;
 }
+.works-large-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+  margin-bottom: 25px;
+  margin-top: 0;
+}
+.works-card--5 {
+  display: none;
+}

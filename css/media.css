@@ -123,8 +123,12 @@
     width: 339px;
   }
   .works-card--2,
-  .works-card--3 {
+  .works-card--3,
+  .works-card--4 {
     display: none;
+  }
+  .works-card--5 {
+    display: block;
   }
   .blogs-title {
     margin-bottom: 18px;
